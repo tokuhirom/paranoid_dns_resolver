@@ -7,3 +7,5 @@ cache:
     - $HOME/.gradle/wrapper/
 sudo: false
 script: ./gradlew --info check
+# http://stackoverflow.com/questions/26566564/override-default-travis-ci-script-for-java-gradle-project
+install: /bin/true
