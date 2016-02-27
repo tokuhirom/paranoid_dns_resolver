@@ -6,4 +6,4 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 sudo: false
-script: ./gradlew -q jar distZip
+script: ./gradlew --info check
