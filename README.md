@@ -1,5 +1,7 @@
 # paranoid_dns_resolver for Java
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/me.geso/paranoid_dns_resolver/badge.svg)](https://maven-badges.herokuapp.com/maven-central/me.geso/paranoid_dns_resolver)
+
 The paranoid_dns_resolver is a class subclassing `org.apache.http.impl.conn.SystemDefaultDnsResolver`,
 but paranoid against attackers. It's to be used when you're fetching a remote resource on behalf of a possibly malicious user.
 
